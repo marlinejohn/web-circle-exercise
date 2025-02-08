@@ -78,3 +78,4 @@ const RestaurantView = () => {
 };
 
 export default RestaurantView;
+
