@@ -6,7 +6,8 @@ const SearchField = ({ searchTerm, setSearchTerm }) => {
     <div className={styles.wrapper}>
       <input
         placeholder="Filter dishes..."
-        type="text"     
+        type="text"  
+        onChange={(e) => setSearchTerm(e.target.value)}   
       />
     </div>
   );
