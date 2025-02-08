@@ -1,6 +1,6 @@
 import styles from "./SearchField.module.css";
 
-const SearchField = () => {
+const SearchField = ({ searchTerm, setSearchTerm }) => {
   
   return (
     <div className={styles.wrapper}>
